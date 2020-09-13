@@ -32,4 +32,4 @@
     } else {
         echo "Message sent!";
     }
-    echo "<script type='text/javascript'> document.location = 'index.html'; </script>";
+    echo "<script type='text/javascript'> document.location = 'index.html';</script>";
