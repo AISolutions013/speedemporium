@@ -1,0 +1,729 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    display: flex;
+}
+#speedemporium {
+    margin: 0 auto;
+    height: 92px;
+}
+
+.nav-link {
+    font-style: normal;
+    font-weight: bold;
+    color: #267302 !important;
+    font-size: 17px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #F0913B !important;
+}
+
+.pt80 {
+    padding-top: 80px;
+}
+
+.pt1 {
+    padding: 5px;
+}
+
+.boxResizing {
+    height: 97px !important;
+}
+
+.divisor {
+    border-left: 1px solid #C4C4C4;
+    margin-left: 100px;
+    padding-left: 53px;
+    margin-right: 10px;
+}
+
+.mt4 {
+    margin-top: 20px;
+}
+
+#condominium {
+    padding: 37px 0;
+    background-image: url("../imgs/building.png");
+    background-attachment: fixed;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+#condominium > div {
+    box-sizing: border-box;
+    padding: 0 15px;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#bg-cart {
+    background-image: url("../imgs/shopping-cart.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 90px;
+}
+
+#contato-banner {
+    background-image: url("../imgs/contact-banner.png");
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#home {
+    background-color: black;
+    height: 782px;
+    position: relative;
+}
+
+.announcements {
+    background-color: white;
+    border-right-style: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto 0 20px;
+    width: fit-content;
+}
+
+#home-bg {
+    height: 782px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.full-max {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.slickCarousel, .bx-wrapper {
+    height: 100%;
+    width: 100%;
+    border: none!important;
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.slickCarousel > .banner {
+    height: 782px;
+    background-position: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.slickCarousel > .banner > .content {
+   max-width: 1280px;
+   width: 100%;
+   margin: 0 auto;
+   display:  flex!important;
+   height: 100%;
+   flex-direction: column;
+   padding: 0 15px;
+   box-sizing: border-box;
+}
+
+.slickCarousel > .banner > .content > a {
+    margin-bottom: auto;
+ }
+
+
+/* .announcements {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    top: 342px;
+    left: 107px;
+    border-radius: 10px;
+} */
+
+.btn-style {
+    background-color: #F0913B;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 262px;
+}
+
+.btn-style:hover {
+    color: #267302;
+    font-weight: bold;
+}
+
+#logotipo {
+    top: -80px;
+    left: 15px;
+    position: absolute;
+    z-index: 999;
+    width: 158px;
+    height: 182px;
+    background-color: white;
+    border-radius: 0px 0 26px 26px;
+    box-shadow: 0px 12px 4px rgba(0, 0, 0, 0.25);
+}
+
+#logotipo img {
+    margin-top: 9px;
+    width: 48%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bg-cart {
+    padding: 0 15px 50px;
+    box-sizing:  border-box;
+    max-width:  1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#works {
+    padding-bottom: 85px;
+}
+
+#works h2 {
+    font-size: 36px;
+    margin-top: 40px;
+    line-height: 42px;
+    color: #F0913B;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+#condominium h2 {
+    font-size: 36px;
+    line-height: 42px;
+    color: white;
+}
+
+#contact h2 {
+    font-size: 36px;
+    padding: 30px 0 0 0;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding:  0 15px;
+    background-origin: border-box;
+}
+
+.topics {
+    background: #FFFFFF;
+    border: 2px solid #F0913B;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 295px;
+    height: 167px;
+    margin: 0 20px 80px;
+}
+
+.firstcard p {
+    top: 100px;
+}
+
+.secondcard p, .thirdcard p, .forthcard p, .fifthcard p {
+    top: 87px;
+}
+
+.thirdcard p {
+    left: 8px;
+}
+
+.firstcard h3 {
+    left: 104px;
+}
+
+.secondcard h3 {
+    left: 94px;
+}
+
+.thirdcard h3 {
+    left: 33px;
+}
+
+
+.forthcard h3 {
+    left: 15px;
+}
+
+.fifthcard h3 {
+    left: 55px;
+}
+
+.contentStyle {
+    width: 500px;
+}
+
+.formStyle {
+    margin-top: -30px;
+}
+
+.btn-primary {
+    width: 621px;
+    background-color: #F0913B;
+    border: 0;
+    margin-bottom: 50px;
+}
+
+.btn-primary:hover {
+    background-color: #267302;
+}
+
+.mtn4 {
+    margin-top: -22px;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.contentStyle p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+
+.topics p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #565656;
+    position: absolute;
+    text-align: center;
+    padding: 0 10px;
+}
+
+
+.topics span, #condominium span {
+    color: #267302;
+    font-weight: bold;
+}
+
+.topics h3 {
+    top: 48px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    position: absolute;
+}
+
+.topics img {
+    position: absolute;
+    bottom: 125px;
+    left: 110px;
+}
+
+.mt80 {
+    margin-top: 80px;
+}
+
+#aboutUs {
+    padding-bottom: 40px;
+    background: linear-gradient(98.74deg, #EEEEEE 18.53%, #FFF5E4 87.55%);
+    position: relative;
+}
+
+#aboutUsIntro {
+    background-color: #F0913B;
+    width: 600px;
+    height: 508px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 28px;
+    color: white;
+    border-radius: 20px;
+    position: absolute;
+    right: 15px;
+    top: 200px;
+}
+
+#aboutUsFirstCard {
+    padding: 60px 15px;
+    max-width: 1280px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+}
+
+.AboutUsOptions {
+    height: 57px;
+    border-radius: 9px;
+    font-size: 14px;
+    background: #FFFFFF;
+    color: black;
+    display: flex;
+    
+}
+
+.imgAbout {
+    background-color: #267302;
+    text-align: center;
+    border-radius: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgAbout img {
+    padding: 0px 10px;
+}
+
+.mt3 {
+    margin-top: 15px;
+}
+
+.formPadding {
+    padding: 20px 107px;
+}
+
+.form-control {
+    color: gray;
+}
+
+.inputHeight {
+    height: 40px;
+}
+
+.formWidth {
+    width: 300px;
+}
+
+.inputResize {
+    width: 140px !important;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+.form-group {
+    margin: 10px;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    padding: 30px 0;
+}
+
+footer > div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer img {
+    padding-right: 10px;
+}
+
+footer h2 {
+    color: #F0913B;
+}
+
+#imgFooter {
+    width: 126px;
+}
+
+#copyright {
+    background-color: #FFFFFF;
+    font-size: 13px;
+    padding: 10px 107px;
+}
+
+#copyright > div {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.justify-center {
+    justify-content: center;
+    padding-top: 90px;
+}
+
+@media  (max-width: 1080px) { 
+    #condominium {
+        padding-top: 200px;
+    }
+}
+
+@media (max-width: 280px) {
+    #aboutUsIntro {
+        width: 260px !important; 
+        height: 757px !important;
+    }       
+
+    .AboutUsOptions {
+        font-size: 11px; 
+    }
+
+    .topics h4 {
+        font-size: 16px; 
+    }
+
+    #imgFooter {
+        width: 60px;
+    }
+    
+}
+
+@media (max-width: 991px) { 
+    .topics {
+        margin: 0 10px 80px;
+    }
+    #home-bg {
+        height: 220px;
+    }
+    .slickCarousel > .banner {
+        height: 220px;
+    }
+    #speedemporium {
+        margin: 0;
+    }
+    .announcements {
+        font-size: 16px;
+    }
+
+    #logotipo {
+        display: none!important;
+    }
+    #navbarNav {
+    background: #fff;
+    z-index: 999;
+    padding: 0 15px;
+    border-radius: 10px;
+    }
+}
+
+@media (max-width: 768px) { 
+
+    .navbar-collapse {
+        background-color: white;
+        border-radius: 20px 0px;
+        padding: 16px;
+    }
+
+    #speedemporium {
+        margin-left: 0;
+        height: 47px;
+    }
+
+    #home-bg {
+        z-index: -1;
+        height: 221px;
+    }
+
+    #logotipo {
+        left: 612px;
+        width: 101px;
+        height: 135px;
+    }
+
+    .announcements {
+        font-size: 13px;
+    }
+
+    .btn-style {
+        width: 150px;
+        font-size: 14px;
+    }
+
+    #works {
+        text-align: center;
+    }
+
+    #works h3, #condominium h2, #contact h2 {
+        font-size: 25px;
+        margin-top: 17px;
+        margin-bottom: 19px;
+    }
+
+    #contact h2 {
+        margin: 0;
+        padding: 10px 0 0 0;
+    }
+
+    .topics {
+        margin-bottom: 74px;
+    }
+
+    .mobilePt {
+        padding-top: 121px !important;
+    }
+
+    .pt80 {
+        padding-top: 0;
+    }
+
+    #bg-cart {
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .flex-wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .justify-center {
+        padding-top: 0;
+    }
+
+    .formPadding {
+        padding: 0;
+    }
+
+    #aboutUsFirstCard {
+        padding: 20px 15px;
+        text-align: center;
+    }
+
+
+    #aboutUsIntro {
+        width: 100%;
+        right: 0;
+        margin: 0 auto;
+        height: 720px;
+        text-align: center;
+        position: initial;
+    }
+
+    .AboutUsOptions {
+        height: 75px;
+    }
+
+    .mobileSize2 {
+        height: 97px;
+    }
+
+    .boxResizing {
+        height: 198px !important;
+    }
+
+
+    #condominium {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .contentStyle {
+        width: 100%;
+    }
+
+    .btn-primary {
+        width: 135px;
+    }
+
+    .flexMobile {
+        flex-direction: column
+    }
+
+    .mtMobile {
+        margin-top: -25px;
+    }
+
+    #alignMobile {
+        text-align: -webkit-center;
+    }
+
+    .form-control {
+        width: 100% !important; 
+    }
+
+    .btn-primary {
+        margin: 10px 0;
+    } 
+
+    footer {
+        padding: 20px 15px;
+        font-size: 13px;
+    }
+
+    #imgFooter {
+        width: 70px;
+    }
+
+    #copyright {
+        padding: 10px 2px;
+        font-size: 13px; 
+    }
+    #copyright > div {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #contato-banner {
+        height: 82px;
+        z-index: -1;
+    }
+
+    .iconWidth {
+        width: 30px;
+    }
+
+    .mobileForm {
+        width: 100%;
+        text-align: center;
+    }
+
+    .formPadding {
+        width: 100%;
+    }
+
+    #bg-cart, #home-bg {
+        overflow: hidden;
+    }
+
+    #aboutUs {
+        overflow: hidden;
+    }
+
+    #works h2 {
+        margin-bottom: 40px; 
+    }
+
+    .announcements {
+        padding: 10px;
+    }
+
+}
+
