@@ -727,3 +727,36 @@ footer h2 {
 
 }
 
+
+@media only screen and (device-width: 768px) {
+    .boxResizing {
+        height: 100px !important;
+    }
+
+    .pt1 {
+        margin: 0 auto !important;
+        padding-top: 16px !important;
+    }
+ }
+
+ @media only screen and (device-width: 540px) {
+    .boxResizing {
+        height: 130px !important;
+    }
+
+    .pt1 {
+        margin: 0 auto !important;
+        padding-top: 16px !important;
+    }
+ }
+
+ @media only screen and (device-width: 320px) {
+    .AboutUsOptions {
+        height: 96px;
+    }
+
+    #aboutUsFirstCard { 
+        padding: 0;
+    }
+ }
+
