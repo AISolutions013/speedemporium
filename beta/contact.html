@@ -25,7 +25,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Home</a> 
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="#contato-banner">Contato <span class="sr-only">(current)</span></a>
@@ -52,32 +52,36 @@
 
         <div class="d-flex space-evenly ">
             <div class="mobileForm">
-                <form method="POST" action="script.php">
+                <form method="POST" action="contact2.php">
                         <div> 
                             <div class="form-group inputHeight">
                                 <label for="name"></label>
-                                <input style="border-right: 5px solid red;" required type="text" class="form-control" placeholder="Nome*">
+                                <input style="border-right: 5px solid red;" required type="text" class="form-control" placeholder="Nome*" name="name">
                             </div>
                             <div class="form-group inputHeight">
                                 <label for="email"></label>
-                                <input style="border-right: 5px solid red;" required type="email" class="form-control" id="email" placeholder="E-mail*">
+                                <input style="border-right: 5px solid red;" required type="email" class="form-control" id="email" placeholder="E-mail*" name="email">
                             </div>
                             <div class="form-group inputHeight">
                                 <label for="celphone"></label>
-                                <input style="border-right: 5px solid red;" required type="number" class="form-control" id="celphone" placeholder="(DDD) Telefone*">
+                                <input style="border-right: 5px solid red;" required type="number" class="form-control" id="celphone" placeholder="(DDD) Telefone*" name="telephone">
                             </div>
                             <div class="form-group inputHeight">
                                 <label for="plataform"></label>
-                                <input type="text" class="form-control" id="plataform" placeholder="Como nos conheceu?">
+                                <input type="text" class="form-control" id="plataform" placeholder="Como nos conheceu?" name="conheceu">
                             </div>
                             <div class="form-group inputHeight">
                                 <label for="subject"></label>
-                                <input type="text" class="form-control" id="subject" placeholder="Assunto">
+                                <input type="text" class="form-control" id="subject" placeholder="Assunto" name="subject">
                             </div>
                             <div class="form-group">
                                 <label for="message"></label>
-                                <textarea class="form-control" id="message" rows="3" placeholder="Mensagem"></textarea>
-                            </div>                                   
+                                <textarea class="form-control" name="message" id="message" rows="3" placeholder="Mensagem"></textarea>
+                            </div>
+                            <center style="margin: 10px 0;">
+                                <div class="g-recaptcha" data-sitekey="6Lc2_MwZAAAAAOe-TcfAKsyFxwk-8AgS2gmG9_1I"></div>                                                   
+                            </center> 
+                            
                         <button type="submit" class="btn btn-primary">Enviar</button>
                     </div>
                 </form>
@@ -121,9 +125,17 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
+        <script src="https://www.google.com/recaptcha/api.js"></script>
         <script>
             AOS.init();
+
+            $(window).scroll(function(){
+                if($(window).scrollTop() > 100){
+                    $('#logotipo').addClass('min-logo')
+                } else {
+                    $('#logotipo').removeClass('min-logo')
+                }    
+            });
         </script>
     </body>
 </html>
